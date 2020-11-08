@@ -6,6 +6,6 @@ job('Flask_groovy_example') {
         }
     }
     steps {
-        shell("start.sh")
+        shell("../start.sh")
     }
 }
