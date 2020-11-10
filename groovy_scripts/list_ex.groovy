@@ -15,3 +15,22 @@ listView('Ex Seed tab') {
         buildButton()
     }
 }
+
+listView('Flask tab') {
+    description('Flask jobs only')
+
+    jobs {
+        //name('seed_flask')
+        regex(/[Ff]lask./)
+    }
+
+    columns {
+        status()
+        weather()
+        name()
+        lastSuccess()
+        lastFailure()
+        lastDuration()
+        buildButton()
+    }
+}
