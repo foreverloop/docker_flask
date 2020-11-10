@@ -21,7 +21,7 @@ listView('Flask tab') {
 
     jobs {
         //name('seed_flask')
-        regex(/[Ff]lask./)
+        regex(/[Ff]lask.*/)
     }
 
     columns {
