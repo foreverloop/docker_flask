@@ -15,6 +15,9 @@ listView('Ex Seed tab') {
         buildButton()
     }
 }
+String[] array1 = ['1a','1b']
+String[] array2 = ['2a','2b']
+println("${array1[0]}_${array2[0]}")
 
 listView('Flask tab') {
     description('Flask jobs only')
